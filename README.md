@@ -242,8 +242,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-- **Project Lead**: [Your Name]
-- **Email**: [your.email@example.com]
+- **Project Lead**: [Samuel Obembe]
+- **Email**: [samuel@byd90.com]
 - **Website**: [beyondathletes.com](https://beyondathletes.com)
 
 ---
