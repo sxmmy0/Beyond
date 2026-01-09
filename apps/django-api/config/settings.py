@@ -48,7 +48,7 @@ INSTALLED_APPS = [
      # Third-party
     'rest_framework',
     'corsheaders',
-    'strawberry.django',
+    'strawberry_django',
     
     # Local apps
     'users',
@@ -160,3 +160,12 @@ REST_FRAMEWORK = {
 
 # Custom User Model
 AUTH_USER_MODEL = 'users.User'
+
+# Authentication backends
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+]
+
+# Session settings
+SESSION_COOKIE_SAMESITE = 'Lax'
+SESSION_COOKIE_SECURE = False  # Set to True in production with HTTPS
